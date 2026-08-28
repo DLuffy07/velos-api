@@ -40,7 +40,7 @@ pipeline {
         }
         stage('Deployer') {
             steps {
-                withCredentials([file(credentialsId: 'kubeconfig-kind', variable: 'KUBECONFIG')]) {
+                withCredentials([file(credentialsId: 'kubeconfig-velos', variable: 'KUBECONFIG')]) {
                     sh '''
                         kubectl set image deployment/velos-api api=$IMAGE:$TAG
                         kubectl rollout status deployment/velos-api --timeout=180s
