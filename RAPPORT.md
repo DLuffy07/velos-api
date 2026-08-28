@@ -26,15 +26,19 @@ Le projet velos-api utilise Docker, Docker Compose, Kubernetes et Jenkins.
 
 
 
+HEAD
 Le projet velos-api est déployé sur Kubernetes et automatisé avec Jenkins.
 
 
 
-**Nom et prénom :** <...>
-**Groupe :** <M2DAT26.1 ou M2DAN26.1>
-**Dépôt :** <lien de ton dépôt GitHub>
-**Image publiée :** <adresse de ton image sur le registre>
-**Date de rendu :** 28/08/2026
+
+
+feature/rapport-docker
+\*\*Nom et prénom :\*\* <...>
+\*\*Groupe :\*\* <M2DAT26.1 ou M2DAN26.1>
+\*\*Dépôt :\*\* <lien de ton dépôt GitHub>
+\*\*Image publiée :\*\* <adresse de ton image sur le registre>
+\*\*Date de rendu :\*\* 28/08/2026
 
 \---
 
