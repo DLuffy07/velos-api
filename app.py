@@ -58,7 +58,7 @@ def lire_stations():
 @app.get("/sante")
 def sante():
     """Route destinee aux machines, pas aux humains."""
-    return jsonify({"statut": "ok", "version": "2.0"})
+    return jsonify({"statut": "ko", "version": "2.0"})
 
 
 @app.get("/stations")
