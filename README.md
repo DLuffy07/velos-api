@@ -85,3 +85,4 @@ Les 24 captures C01 a C24, les six commits minimum, le conflit reel, la pull req
 
 Le projet utilise Jenkins pour tester, construire, publier et déployer automatiquement l'API.
 
+
