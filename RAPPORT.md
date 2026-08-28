@@ -10,6 +10,18 @@
 
 # Projet DevOps · velos-api
 
+Le projet suit la chaîne suivante :
+
+GitHub -> Jenkins -> Docker Hub -> Kubernetes.
+
+
+
+Docker Compose est utilisé pour l'environnement local avec PostgreSQL.
+
+Kubernetes est utilisé pour le déploiement avec plusieurs réplicas de l'API.
+
+
+
 **Nom et prénom :** <...>
 **Groupe :** <M2DAT26.1 ou M2DAN26.1>
 **Dépôt :** <lien de ton dépôt GitHub>
